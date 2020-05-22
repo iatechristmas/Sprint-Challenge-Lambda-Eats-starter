@@ -74,7 +74,8 @@ const App = () => {
         console.error("Server Error", error);
       })
       .finally(() => {
-        console.log("Your Order has been received!");
+        alert(`Thank you ${newOrder.name} Your Order has been received!`);
+        console.log(`Thank you ${newOrder.name} Your Order has been received!`);
         setFormValues(initialFormValues);
       });
   };

@@ -132,6 +132,11 @@ const OrderForm = styled.form`
     display: flex;
     flex-direction: column;
   }
+
+  .sauce {
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 const Form = (props) => {
